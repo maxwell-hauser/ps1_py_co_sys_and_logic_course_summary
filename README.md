@@ -182,9 +182,11 @@ Feel free to:
 - Fix bugs or typos
 - Enhance documentation
 
-## License
+## Authorship
+Authored by Maxwell Hauser on November 19, 2025
 
-These examples are educational materials for the Computer Systems and Logic course.
+## License
+MIT License
 
 ---
 
