@@ -2,23 +2,39 @@
 
 This directory contains runnable Python scripts that demonstrate the key concepts from each chapter of the Computer Systems and Logic course.
 
-## Contents
+## Root Directory Structure
 
-- **ch01_signals_and_number_systems.py** - Introduction to signals and number systems
-- **ch02_analog_signals.py** - Analog signal characteristics (amplitude, frequency, phase)
-- **ch03_digital_signals.py** - Digital signal representation and bit/byte concepts
-- **ch04_number_systems.py** - Different number bases (binary, octal, decimal, hex)
-- **ch05_conversions.py** - Converting between number systems
-- **ch06_complements.py** - One's and two's complement operations
-- **ch07_signed_numbers.py** - Unsigned, signed magnitude, and two's complement
-- **ch08_binary_arithmetic.py** - Binary addition and subtraction
-- **ch09_floating_point.py** - IEEE 754 floating point representation
-- **ch10_bcd.py** - Binary Coded Decimal encoding
-- **ch11_coding_schemas.py** - ASCII and Unicode character encoding
-- **ch12_parity_bits.py** - Error detection using parity bits
-- **ch13_clock_signals.py** - Clock signal properties and timing
-- **ch14_transmission_types.py** - Asynchronous vs synchronous transmission
-- **ch15_transmission_methods.py** - Serial vs parallel transmission
+Folders:
+- **py_01_signal_and_num_sys_gh/**
+- **py_02_analog_signals_gh/**
+- **py_03_digital_signals_gh/**
+- **py_04_number_systems_gh/**
+- **py_05_conversions_gh/**
+- **py_06_complements_gh/**
+- **py_07_signed_magnitude_gh/**
+- **py_08_binary_addition_subtraction_gh/**
+- **py_09_floating_point_representation_gh/**
+- **py_10_binary_coded_decimals_gh/**
+- **py_11_coding_schemas_gh/**
+- **py_12_parity_bits_gh/**
+- **py_13_clock_signals_gh/**
+- **py_14_transmission_types_gh/**
+- **py_15_transmission_methods_gh/**
+- **py_16_course_summary_and_exercises_gh/**
+
+Files:
+- **run_examples.py** (main interactive launcher)
+- **README.md** (this file)
+- **.github/** (root CI/CD workflows)
+- **.github_workflow_template.yml** (workflow template)
+- **.github_release_template.yml** (release workflow template)
+- **.gitignore**
+- **scripts/** (automation scripts)
+    - add_workflows.ps1
+    - update_repos.ps1
+    - rename_chapter_files.ps1
+    - git_init_and_push.ps1
+    - test_all_chapters.ps1
 
 ## Quick Start
 
@@ -40,9 +56,9 @@ This provides an interactive menu where you can:
 Run any chapter directly:
 
 ```bash
-python ch01_signals_and_number_systems.py
-python ch05_conversions.py
-python ch12_parity_bits.py
+python py_01_signal_and_num_sys_gh/py_01_signal_and_num_sys_gh.py
+python py_05_conversions_gh/py_05_conversions_gh.py
+python py_12_parity_bits_gh/py_12_parity_bits_gh.py
 # ... etc
 ```
 
@@ -125,12 +141,38 @@ Each script is self-contained and can be modified to:
 These examples complement the markdown files in each project directory:
 - `py_01_signal_and_num_sys_gh/py_01_signal_and_num_sys_gh.md`
 - `py_02_analog_signals_gh/py_02_analog_signals_gh.md`
-- etc.
+- `py_03_digital_signals_gh/py_03_digital_signals_gh.md`
+- `py_04_number_systems_gh/py_04_number_systems_gh.md`
+- `py_05_conversions_gh/py_05_conversions_gh.md`
+- `py_06_complements_gh/py_06_complements_gh.md`
+- `py_07_signed_magnitude_gh/py_07_signed_magnitude_gh.md`
+- `py_08_binary_addition_subtraction_gh/py_08_binary_addition_subtraction_gh.md`
+- `py_09_floating_point_representation_gh/py_09_floating_point_representation_gh.md`
+- `py_10_binary_coded_decimals_gh/py_10_binary_coded_decimals_gh.md`
+- `py_11_coding_schemas_gh/py_11_coding_schemas_gh.md`
+- `py_12_parity_bits_gh/py_12_parity_bits_gh.md`
+- `py_13_clock_signals_gh/py_13_clock_signals_gh.md`
+- `py_14_transmission_types_gh/py_14_transmission_types_gh.md`
+- `py_15_transmission_methods_gh/py_15_transmission_methods_gh.md`
+- `py_16_course_summary_and_exercises_gh/py_16_course_summary_and_exercises_gh.md`
 
 Each project is maintained in its own GitHub repository at:
-- https://github.com/maxwell-hauser/py_01_signal_and_num_sys_gh
-- https://github.com/maxwell-hauser/py_02_analog_signals_gh
-- etc.
+- https://github.com/maxwell-hauser/py_01_signal_and_num_sys
+- https://github.com/maxwell-hauser/py_02_analog_signals
+- https://github.com/maxwell-hauser/py_03_digital_signals
+- https://github.com/maxwell-hauser/py_04_number_systems
+- https://github.com/maxwell-hauser/py_05_conversions
+- https://github.com/maxwell-hauser/py_06_complements
+- https://github.com/maxwell-hauser/py_07_signed_magnitude
+- https://github.com/maxwell-hauser/py_08_binary_addition_subtraction
+- https://github.com/maxwell-hauser/py_09_floating_point_representation
+- https://github.com/maxwell-hauser/py_10_binary_coded_decimals
+- https://github.com/maxwell-hauser/py_11_coding_schemas
+- https://github.com/maxwell-hauser/py_12_parity_bits
+- https://github.com/maxwell-hauser/py_13_clock_signals
+- https://github.com/maxwell-hauser/py_14_transmission_types
+- https://github.com/maxwell-hauser/py_15_transmission_methods
+- https://github.com/maxwell-hauser/py_16_course_summary_and_exercises
 
 ## Contributing
 
